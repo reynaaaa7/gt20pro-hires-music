@@ -10,8 +10,8 @@
       "key": "quality",
       "default": "LOSSLESS",
       "options": [
-        {"value": "LOSSLESS"},
         {"value": "HI_RES"},
+        {"value": "LOSSLESS"},
         {"value": "HIGH"},
         {"value": "LOW"}
       ]
