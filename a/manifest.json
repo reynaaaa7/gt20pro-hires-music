@@ -1,0 +1,20 @@
+{
+  "id": "dev.bitperfect.gt20pro",
+  "name": "GT 20 Pro Hi-Res Music",
+  "version": "1.0.0",
+  "resources": ["search", "stream"],
+  "allowDownloads": 1,
+  "checkValidLossless": 1,
+  "settings": [
+    {
+      "key": "quality",
+      "default": "LOSSLESS",
+      "options": [
+        {"value": "LOSSLESS"},
+        {"value": "HI_RES"},
+        {"value": "HIGH"},
+        {"value": "LOW"}
+      ]
+    }
+  ]
+}
