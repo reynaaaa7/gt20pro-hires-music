@@ -1,8 +1,11 @@
 {
   "id": "app.bitchord.lossless-bridge",
-  "name": "GT 20 Pro Hi-Res Music",
-  "version": "1.0.1",
-  "resources": ["search", "stream"],
+  "name": "Lossless Bridge",
+  "version": "1.0.0",
+  "resources": [
+    "search",
+    "stream"
+  ],
   "allowDownloads": 1,
   "checkValidLossless": 0,
   "settings": [
@@ -11,10 +14,18 @@
       "type": "select",
       "default": "lossless",
       "options": [
-        {"label": "Hi-Res", "value": "studio"},
-        {"label": "Lossless", "value": "lossless"},
-        {"label": "High", "value": "high"},
-        {"label": "Low", "value": "low"}
+        {
+          "label": "Lossless",
+          "value": "lossless"
+        },
+        {
+          "label": "High",
+          "value": "high"
+        },
+        {
+          "label": "Low",
+          "value": "low"
+        }
       ]
     },
     {
@@ -22,8 +33,14 @@
       "type": "select",
       "default": "studio",
       "options": [
-        {"label": "Studio masters first", "value": "studio"},
-        {"label": "Live and bootlegs first", "value": "live"}
+        {
+          "label": "Studio masters first",
+          "value": "studio"
+        },
+        {
+          "label": "Live and bootlegs first",
+          "value": "live"
+        }
       ]
     }
   ]
