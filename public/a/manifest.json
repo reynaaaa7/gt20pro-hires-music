@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "resources": ["search", "stream"],
   "allowDownloads": 1,
-  "checkValidLossless": 1,
+  "checkValidLossless": 0,
   "settings": [
     {
       "key": "quality",
